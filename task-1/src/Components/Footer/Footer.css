@@ -1,0 +1,12 @@
+.Footer{
+    width: 75%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Footer--p1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}

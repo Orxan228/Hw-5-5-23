@@ -1,0 +1,88 @@
+.Content{
+    width: 75%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.Content___left{
+    width: 65%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.Content___left>h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+.Content___left--p1{
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.4);
+}
+.Content___right{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Content___right___about{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(234, 234, 234);
+    border-radius: 3px;
+    padding: 10px;
+}
+.Content___right___about--p1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.Content___right___archives--p1{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.Content___right___archives ul li{
+    list-style: none;
+}
+.Content___right___archives ul li a{
+    color: rgb(0, 89, 255);
+}
+.Content___right___social--p1{
+    font-size: 20px;
+}
+.Content___right___social--p1{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.Content___right___social--git{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(0, 89, 255);
+    margin-top: 10px;
+}
+.Content___right___social--twitter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(0, 89, 255);
+    margin-top: 10px;
+}
+.Content___right___social--facebook{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(0, 89, 255);
+    margin-top: 10px;
+}
+.Content___right___social--git>a{
+    color: rgb(0, 89, 255);
+}
+.Content___right___social--twitter>a{
+    color: rgb(0, 89, 255);
+}
+.Content___right___social--facebook>a{
+    color: rgb(0, 89, 255);
+}
